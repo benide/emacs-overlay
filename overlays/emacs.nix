@@ -91,21 +91,31 @@ let
               else ''ln -s ${drv}/parser $out/lib/${lib drv}'';
             plugins = with self.pkgs.tree-sitter-grammars; [
               tree-sitter-bash
+              tree-sitter-bibtex
               tree-sitter-c
               tree-sitter-c-sharp
+              tree-sitter-clojure
               tree-sitter-cmake
+              tree-sitter-commonlisp
               tree-sitter-cpp
               tree-sitter-css
               tree-sitter-dockerfile
               tree-sitter-go
               tree-sitter-gomod
+              tree-sitter-haskell
               tree-sitter-html
               tree-sitter-java
               tree-sitter-javascript
               tree-sitter-json
+              tree-sitter-julia
+              tree-sitter-latex
+              tree-sitter-make
               tree-sitter-python
+              tree-sitter-r
               tree-sitter-ruby
               tree-sitter-rust
+              tree-sitter-scss
+              tree-sitter-sql
               tree-sitter-toml
               tree-sitter-tsx
               tree-sitter-typescript
